@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rental Cost Calculator</title>
+  <link rel="stylesheet" type="text/css" href="/javascript foundation/12. calculate rental cost/rentalcost.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Rental Cost Calculator</h1>
+    <form id="calculatorForm">
+      <label for="daysInput">Number of Days Rented:</label>
+      <input type="number" id="daysInput" required>
+      <label for="carTypeSelect">Car Type:</label>
+      <select id="carTypeSelect">
+        <option value="economy">Economy</option>
+        <option value="midsize">Midsize</option>
+        <option value="luxury">Luxury</option>
+      </select>
+      <button type="submit">Calculate</button>
+    </form>
+    <div id="result"></div>
+  </div>
+
+  <script src="/javascript foundation/12. calculate rental cost/renlatcost.js"></script>
+</body>
+</html>
